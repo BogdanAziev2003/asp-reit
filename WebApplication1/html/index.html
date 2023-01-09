@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+</head>
+<body>
+    <input class="weightInput" type="text" placeholder="Введите вес в граммах" />
+    <button class="weight">Перевести</button>
+    <br />
+    <br />
+    <br />
+    <input class="s" type="text" placeholder="s" />
+    <input class="r" type="text" placeholder="r" />
+    <input class="k" type="text" placeholder="k" />
+    <button class="radius">Узнать</button>
+
+    <script>
+        let weightBtn = document.querySelector(".weight")
+        let weightInput = document.querySelector(".weightInput")
+        weightBtn.addEventListener("click", () => {
+            window.location.href = "weight/" + weightInput.value
+        })
+
+        let s = document.querySelector(".s")
+        let r = document.querySelector(".r")
+        let k = document.querySelector(".k")
+        let radiusBtn = document.querySelector(".radius")
+
+        radiusBtn.addEventListener("click", () => {
+            window.location.href = "know/" + s.value + "/" + r.value + "/" + k.value
+        })
+
+    </script>
+</body>
+</html>

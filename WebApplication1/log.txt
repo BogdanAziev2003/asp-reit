@@ -1,0 +1,10 @@
+re3weweweewgramm - 2122121, kilo - 2122, tonn - 2re3weweweewgramm - 21212, kilo - 21, tonn - 0
+re3weweweew
+gramm - 21212, kilo - 21, tonn - 0
+re3weweweew
+gramm - 23231, kilo - 23, tonn - 0
+s - 32, r - 2, k - 3, answer - Нельзя
+s - 16, r - 1, k - 2, answer - Можно
+s - 16, r - 1, k - 3, answer - Нельзя
+s - 16, r - 1, k - 1, answer - Можно
+s - 25, r - 2, k - 1, answer - Можно
